@@ -1,0 +1,36 @@
+Web Development:
+
+1) Front-end // Client-side
+2) Back-end // Server-side
+3) Full-stack // client + server side
+
+
+Front-end : 
+--------------------------------------
+--> HTML  // website basic structure
+--> CSS  // Design , color , animation
+--> JavaScript (JS) // Data backend fetch(lai aivo) html provide
+
+
+website is host in Browser
+
+DOM --> Document Object Model // document contain html structure/html code
+BOM --> browser Object Model // Window Object Model
+
+CSS --> ways to write css (inline,internal,external CSS)
+
+JS --> ways to write js(internal,external JS)
+
+internal JS
+----------------------------------------------------------
+script tag :
+    <script>
+        JS code
+    </script>
+
+Extenal JS
+---------------------------------------------------------------
+
+index.js // index(filename) .js(file extension)
+
+
