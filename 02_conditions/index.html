@@ -21,16 +21,31 @@
     // }else{ // false,empty-string,0,undefined,NaN --> falsy
     //     console.log('else block run');
     // }
+    //-------------------------------------------------------------------------------------
+    // 1) Check number is positive or Negative
+
+    // let number = parseInt(prompt('Enter the number : '));
+
+    // if (number > 0) {
+    //     console.log(number, 'Number is positive');
+    // } else {
+    //     console.log(number, 'Number is negative');
+    // }
+
+    //---------------------------------------------------------------------------------------
+
+    // 2) Check number is odd or even
+
+    let number = parseInt(prompt('Enter the number :'));
 
 
-    let number = parseInt(prompt('Enter the number : '));
-
-
-    if (number > 0) {
-        console.log(number, 'Number is positive');
+    if (number % 2 == 0) {
+        console.log('Entered number is Even :',number);
     } else {
-        console.log(number, 'Number is negative');
+        console.log('Entered number is odd :',number);
     }
+
+
 
 </script>
 
