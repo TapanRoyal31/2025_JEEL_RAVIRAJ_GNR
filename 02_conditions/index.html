@@ -100,5 +100,37 @@ Write a program that:
 	If age ≥ 12:
 	Student → $8
 	Non-student → $10*/
+
+    //------------------------------------------------------------------------------------------------
+    /*Task 1: Grade Checker
+  Write a program that:
+	Takes a number marks
+	Uses nested if–else to assign grades:
+		90–100 → "A"
+		75–89 → "B"
+		50–74 → "C"
+		Below 50 → "Fail"
+
+	👉 Handle invalid input (marks < 0 or > 100).*/
+
+    let marks = 80;
+
+    if (marks > 0 && marks < 100) {
+      if (marks > 90 && marks < 100) {
+        console.log("Grade is A");
+      } else {
+        if (marks > 75 && marks < 90) {
+          console.log("Grade is B");
+        } else {
+          if (marks > 50 && marks < 75) {
+            console.log("Grade is C");
+          } else {
+            console.log("Failed");
+          }
+        }
+      }
+    } else {
+      console.log("Invalid Marks");
+    }
   </script>
 </html>
