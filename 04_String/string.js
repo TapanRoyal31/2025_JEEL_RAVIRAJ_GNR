@@ -19,3 +19,22 @@
 
 // console.log(result);
 // console.log(abc);
+
+
+//----------------------------------------------------------------------------------------
+
+// let str = 'I love apples and apples are healthy.'
+
+// let result = str.replaceAll('apples','bananas');
+
+// console.log("result :",result);
+
+//----------------------------------------------------------------------------------------
+
+let url = "sujal.png"
+
+let result = url.endsWith('.png');
+
+console.log(result);
+
+
