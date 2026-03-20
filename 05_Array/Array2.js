@@ -29,3 +29,14 @@
 // arr.forEach(function(sujal){
 //     console.log(sujal + 10);
 // })
+
+// --------------------------------------------------------------------------------
+
+let arr = [8, 7, 6, 5, 4, 3, 2, 1];
+let fact = arr[0];
+
+arr.forEach(function (item){
+    fact = fact - (item - 1);
+})
+
+console.log("Factorial :",fact);
