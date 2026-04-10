@@ -56,14 +56,14 @@ Arrange numbers so that all even numbers come first, then odd numbers.
 let arr = [5, 2, 8, 1, 4, 7];
  */
 
-let arr = [5, 2, 8, 1, 4, 7];
+// let arr = [5, 2, 8, 1, 4, 7];
 
-arr.sort(function(a,b){
-    if(a % 2 === b % 2){
-        return a - b;
-    }
+// arr.sort(function(a,b){
+//     if(a % 2 === b % 2){
+//         return a - b;
+//     }
 
-    return a % 2 == 0 ? -1 : 1
-})
+//     return a % 2 == 0 ? -1 : 1
+// })
 
-console.log(arr);
+// console.log(arr);
