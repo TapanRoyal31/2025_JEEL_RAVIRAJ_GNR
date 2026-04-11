@@ -72,3 +72,37 @@ const nums = [1, 2, 3, 4, 5];
   odd: [1, 3, 5]
 }
 */
+
+
+// -------------------------------------------------------
+/*
+Find product of numbers (reduce)
+const nums = [2, 3, 4];
+*/
+
+// const nums = [2, 3, 4];
+
+// let prod = nums.reduce((acc,num) => acc * num)
+
+// console.log(prod);
+
+// ------------------------------------------------------------------------
+
+/*
+
+7. Count even numbers (reduce)
+const nums = [1, 2, 3, 4, 6, 7];
+👉 Output: 3
+
+*/
+
+const nums = [1, 2, 3, 4, 6, 7];
+
+
+let even = nums.reduce((count,nums) => 
+{
+ return nums % 2 == 0 ? count = count + 1 : count
+}
+,0)
+
+console.log(even);
