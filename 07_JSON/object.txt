@@ -1,0 +1,15 @@
+JSON :- JavaScript Object Notaion
+
+{
+  "name": "Alex",
+  "age": 22,
+  "city": "Delhi"
+}
+
+js object
+{
+  name: "Alex",
+  age : 22,
+  city: "Delhi"
+}
+
