@@ -8,3 +8,5 @@
     queryselectorall => document.querySelectorAll("p")
 */
 let element = document.querySelectorAll("p");
+
+element.forEach((ele)=> ele.style.background)
