@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn">Click me</button>
+    <button id="remove">Remove</button>
+    <div id="box"></div>
+  </body>
+  <script>
+    let ele = document.createElement("h1");
+    let btn = document.getElementById('btn');
+    let remove = document.getElementById('remove');
+    let box = document.getElementById('box')
+
+    ele.innerText = "Hello js";
+
+    btn.addEventListener('click',() => {
+        box.appendChild(ele);
+    })
+
+    remove.addEventListener('click',() => {
+        box.removeChild(ele);
+    })
+    // document.body.appendChild(ele);
+  </script>
+</html>
