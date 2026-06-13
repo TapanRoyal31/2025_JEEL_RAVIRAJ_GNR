@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+    }
+    .box{
+        height: 300px;
+        width: 300px;
+        border: 2px solid red;
+    }
+    .btn{
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid yellow;
+    }
+</style>
+<body>
+    <div class="box"></div>
+    <button class="btn">Change</button>
+</body>
+<script>
+    let box = document.querySelector('.box');
+    let btn = document.querySelector('.btn');
+    
+    let arr = ["image.png","download.jpg","download2.jpg","download3.jpg"];
+    
+    btn.addEventListener('click',() => {
+        let index = Math.floor(Math.random() * arr.length);
+
+        box.style.backgroundImage = `url(${arr[index]})`;
+        box.style.backgroundSize = 'cover';
+    })
+    
+</script>
+</html>
